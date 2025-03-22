@@ -2,10 +2,6 @@ from datetime import datetime
 
 from pydantic import BaseModel
 
-from database import Base
-
-
-
 
 # Базовая модель для ввода данных
 class TaskIn(BaseModel):

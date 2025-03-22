@@ -2,8 +2,7 @@ from datetime import datetime
 from typing import List
 
 from fastapi import APIRouter, HTTPException, Depends
-from sqlalchemy import select, delete
-from sqlalchemy.ext.asyncio import async_session
+from sqlalchemy import delete
 from sqlalchemy.orm import Session
 
 from database import Base, engine, new_session
